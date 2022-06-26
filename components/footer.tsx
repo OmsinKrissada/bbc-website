@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
 	return (
-		<footer className="flex flex-col md:flex-row-reverse md:justify-evenly items-center space-y-5 md:space-y-0 w-screen px-5 py-10 text-white bg-black font-inter">
+		<footer className="flex flex-col md:flex-row-reverse md:justify-evenly items-center space-y-5 md:space-y-0 px-5 py-10 text-white bg-black font-inter">
 			<div className="flex items-center space-x-5">
 				<a href="https://facebook.com">
 					{/* <Image src="/line-icon.svg" alt="facebook_icon" layout="fill" className="text-white fill-white" /> */}
