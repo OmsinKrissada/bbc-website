@@ -8,11 +8,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ['Inter', 'system-ui'],
+        'cabin': ['Cabin', 'sans-serif'],
+        'nanum': ['Nanum\ Gothic', 'sans-serif'],
       }
     },
-    fontFamily: {
-      // 'sans': ['Inter']
-    }
   },
   plugins: [],
 };
