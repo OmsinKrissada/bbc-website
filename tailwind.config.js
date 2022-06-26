@@ -6,6 +6,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'slide': 'slide 1s linear forwards'
+      },
+      keyframes: {
+        slide: {
+          '0%': { width: '0px' },
+          '100%': { width: 'auto' }
+        }
+      },
     },
     fontFamily: {
       'inter': ['Inter', 'system-ui'],
