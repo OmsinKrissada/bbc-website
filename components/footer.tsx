@@ -14,9 +14,7 @@ export default function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							data-name="Layer 1"
 							stroke="currentColor"
-							stroke-width="0.1"
-							stroke-linecap="round"
-							stroke-linejoin="round"
+							strokeWidth="0.1"
 							fill="currentColor"
 							className="hover:fill-[#00b900] transition"
 						>
