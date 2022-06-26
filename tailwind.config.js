@@ -6,12 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'inter': ['Inter', 'system-ui'],
-        'cabin': ['Cabin', 'sans-serif'],
-        'nanum': ['Nanum\ Gothic', 'sans-serif'],
-      }
     },
+    fontFamily: {
+      'inter': ['Inter', 'system-ui'],
+      'cabin': ['Cabin', 'sans-serif'],
+      'nanum': ['Nanum\ Gothic', 'sans-serif'],
+      'prompt': ['Prompt', 'sans-serif'],
+    }
   },
   plugins: [],
 };
