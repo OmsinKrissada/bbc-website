@@ -11,13 +11,13 @@ export default function Navbar() {
 			<Link href="/">
 				<h1 className="relative group text-2xl tracking-[0.15em] text-center text-white font-cabin cursor-pointer">
 					<span className="px-2 ml-3 mr-1 rounded bg-white font-extrabold text-black tracking-normal">B</span>
-					<span className={`inline-block max-w-fit transition-all ease-in-out origin-left duration-1000 ${shouldExpand ? "w-full scale-100" : "w-[0%] scale-0"}`}>IG</span>
+					<span className={`inline-block max-w-fit ease-in-out origin-left ${shouldExpand ? "w-full scale-100 duration-500" : "w-[0%] scale-0"}`}>IG</span>
 
 					<span className="px-2 ml-3 mr-1 rounded bg-white font-extrabold text-black tracking-normal">B</span>
-					<span className={`inline-block max-w-fit transition-all ease-in-out origin-left duration-1000 delay-500 ${shouldExpand ? "w-full scale-100" : "w-[0%] scale-0"}`}>LACK</span>
+					<span className={`inline-block max-w-fit ease-in-out origin-left delay-500 ${shouldExpand ? "w-full scale-100 duration-500" : "w-[0%] scale-0"}`}>LACK</span>
 
 					<span className="px-2 ml-3 mr-1 rounded bg-white font-extrabold text-black tracking-normal">C</span>
-					<span className={`inline-block max-w-fit transition-all ease-in-out origin-left duration-1000 delay-[1000ms] ${shouldExpand ? "w-full scale-100" : "w-[0%] scale-0"}`}>LOTH</span>
+					<span className={`inline-block max-w-fit ease-in-out origin-left delay-[1000ms] ${shouldExpand ? "w-full scale-100 duration-500" : "w-[0%] scale-0"}`}>LOTH</span>
 				</h1>
 			</Link>
 		</div>

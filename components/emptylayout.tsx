@@ -1,12 +1,10 @@
-import Navbar from "./navbar";
 import Head from "next/head";
-import Footer from "./footer";
 
 interface LayoutProps {
 	children: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function EmptyLayout({ children }: LayoutProps) {
 	return (
 		<>
 			<Head>
@@ -16,9 +14,7 @@ export default function Layout({ children }: LayoutProps) {
 				<meta name="description" content="Big Black Cloth is a shirt company. We make shirts that are made to fit your needs." />
 				<meta name="og:description" content="Big Black Cloth is a shirt company. We make shirts that are made to fit your needs." />
 			</Head>
-			<Navbar />
 			<div>{children}</div>
-			<Footer />
 		</>
 	);
 }

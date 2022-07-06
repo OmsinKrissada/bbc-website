@@ -14,13 +14,23 @@ export default function Faq() {
 				contentInner: "your-contentInner-class",
 			}}
 		>
-			<Accordion.Item label="พวกเราเป็นใคร">พวกเราเป็นนักเรียนอัสสัมชัญระดับชั้น ม.6 บลาๆๆ</Accordion.Item>
+			<Accordion.Item label="พวกเรามาจากไหน">
+				ทีม Big Black Cloth เป็นโครงงานจำลองบริษัทจิ๋วของกลุ่มนักเรียนระดับชั้น ม.6/1 โรงเรียนอัสสัมชัญ เพื่อเป็นส่วนหนึ่งของรายวิชาการงานอาชีพ
+			</Accordion.Item>
 
 			{/* <Accordion.Item label="เราผลิตอะไร">We make the worst possible shit shirt ever existed in our universe.</Accordion.Item> */}
 
-			<Accordion.Item label="ใช้เวลาสั่งทำนานไหม?">Configure components appearance and behavior with vast amount of settings or overwrite any part of component styles</Accordion.Item>
+			{/* <Accordion.Item label="ใช้เวลาสั่งทำนานไหม?">Configure components appearance and behavior with vast amount of settings or overwrite any part of component styles</Accordion.Item> */}
 
-			<Accordion.Item label="วิธีการชำระเงิน">With new :focus-visible pseudo-class focus ring appears only when user navigates with keyboard</Accordion.Item>
+			<Accordion.Item label="วิธีการชำระเงิน">
+				<p>1. จ่างเงินสดในวันขาย (จะประกาศวันในภายหลัง)</p>
+				<p>
+					2. แสกน QR Code หรือกดลิงค์นี้{" "}
+					<a className="text-indigo-600 hover:underline" href="https://google.com">
+						https://idk.com
+					</a>
+				</p>
+			</Accordion.Item>
 		</Accordion>
 	);
 }
