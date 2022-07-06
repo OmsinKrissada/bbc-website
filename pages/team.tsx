@@ -62,13 +62,13 @@ export default function Team() {
 						</ul>
 					</div>
 					{
-						team.map(t => (
-							<div>
+						team.map((t, tIndex) => (
+							<div key={tIndex}>
 								<h3 className="text-center text-white">{t.title}</h3>
 								<ul className="text-center">
 									{
-										t.names.map(n => (
-											<li>{n}</li>
+										t.names.map((n, nIndex) => (
+											<li key={nIndex}>{n}</li>
 										))
 									}
 								</ul>
