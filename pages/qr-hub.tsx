@@ -1,11 +1,13 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import { ReactElement } from 'react';
 import EmptyLayout from '../components/emptylayout';
+import { NextPageWithLayout } from './_app';
 
-const QrHub: NextPage = () => {
+const QrHub: NextPageWithLayout = () => {
 	return (
-		<EmptyLayout>
+		<>
 			<Head>
 				<title>Social Media Portal</title>
 				<meta property="og:title" content="Social Media Portal" key="title" />
@@ -18,7 +20,16 @@ const QrHub: NextPage = () => {
 				<a href="#" className='px-5 py-2 bg-gray-400 rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Instagram (soon)</a>
 				<a href="https://lin.ee/ZCiwJ5I" className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Line</a>
 			</div>
+		</>
+	);
+};
+
+QrHub.getLayout = function getLayout(page: ReactElement) {
+	return (
+		<EmptyLayout>
+			{page}
 		</EmptyLayout>
 	);
 };
+
 export default QrHub;

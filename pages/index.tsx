@@ -99,7 +99,7 @@ const Home: NextPage = () => {
 	}, []);
 
 	return (
-		<Layout>
+		<>
 			<div className="pt-10 pb-20 bg-black/95 text-neutral-400 overflow-x-hidden">
 				{/* <p className="font-medium">Nothing is here yet xd</p> */}
 				<Link href="/team">
@@ -137,7 +137,7 @@ const Home: NextPage = () => {
 					<Faq />
 				</div>
 			</div>
-		</Layout>
+		</>
 	);
 };
 export default Home;

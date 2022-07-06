@@ -45,7 +45,7 @@ export default function Team() {
 		},
 	];
 	return (
-		<Layout>
+		<>
 			<Head>
 				<title>Big Black Cloth - Our Team</title>
 				<meta property="og:title" content="Big Black Cloth | Our Team" key="title" />
@@ -78,6 +78,6 @@ export default function Team() {
 					}
 				</div>
 			</div>
-		</Layout>
+		</>
 	);
 }
