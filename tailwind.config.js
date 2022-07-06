@@ -27,6 +27,7 @@ module.exports = {
       'nanum': ['Nanum\ Gothic', 'sans-serif'],
       'prompt': ['Prompt', 'sans-serif'],
       'playfair': ['Playfair Display', 'sans-serif'],
+      'sans': ['Cabin', 'Prompt', 'sans-serif']
     }
   },
   plugins: [],

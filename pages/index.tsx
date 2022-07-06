@@ -109,16 +109,16 @@ const Home: NextPage = () => {
 					</div>
 				</Link>
 
-				<div className="flex flex-col md:flex-row justify-evenly items-center mt-10">
-					<h3 className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-5 text-5xl font-playfair">
+				<div className="flex flex-col lg:flex-row justify-evenly items-center mt-10">
+					<h3 className="flex flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-5 text-5xl font-playfair">
 						<div className="">ONE</div>
 						<div className="relative w-[10ch] h-12">
-							<span className="absolute left-0 w-full md:text-center font-bold" style={nextAdjectiveStyle}> {nextAdjective} </span>
-							<span className="absolute left-0 w-full md:text-center font-bold" style={adjectiveStyle}> {adjective} </span>
+							<span className="absolute left-0 w-full lg:text-center font-bold" style={nextAdjectiveStyle}> {nextAdjective} </span>
+							<span className="absolute left-0 w-full lg:text-center font-bold" style={adjectiveStyle}> {adjective} </span>
 						</div>
 						<div>STYLE</div>
 					</h3>
-					<div className="p-20" style={{ background: 'radial-gradient(circle closest-side, hsl(255, 100%, 70%), transparent)' }}>
+					<div className="p-20" style={{ background: 'radial-gradient(circle closest-side, hsl(265, 100%, 70%), transparent)' }}>
 						<div className="relative w-96 h-96">
 							<Image src="/first-design.png" layout="fill" />
 						</div>
@@ -128,9 +128,9 @@ const Home: NextPage = () => {
 				{/* <button className="mx-auto px-2 py-1 ring-1 ring-teal-400 rounded-md font-inter font-bold text-white hover:text-teal-600 hover:bg-white transition">Our Team &rarr;</button> */}
 				{/* </Link> */}
 			</div>
-			<div className="bg-slate-200 md:p-32 py-20">
-				<h2 className="w-fit mx-5 mb-10 px-5 py-3 bg-black text-center md:text-left text-3xl text-white font-prompt font-bold">
-					{/* <span className="text-black/30 hidden md:inline">| </span> */}
+			<div className="bg-slate-200 lg:p-32 py-20">
+				<h2 className="w-fit mx-5 mb-10 px-5 py-3 bg-black text-center lg:text-left text-3xl text-white font-bold">
+					{/* <span className="text-black/30 hidden lg:inline">| </span> */}
 					คุณอาจสงสัย
 				</h2>
 				<div className="bg-slate-100">
