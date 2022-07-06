@@ -15,8 +15,8 @@ const QrHub: NextPage = () => {
 					<a className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Website</a>
 				</Link>
 				<a href="https://www.facebook.com/Bigblackcloth_Team-105307738906210" className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Facebook</a>
-				<a href="https://www.facebook.com/Bigblackcloth_Team-105307738906210" className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Instagram (soon)</a>
-				<a href="https://www.facebook.com/Bigblackcloth_Team-105307738906210" className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Line</a>
+				<a href="#" className='px-5 py-2 bg-gray-400 rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Instagram (soon)</a>
+				<a href="https://lin.ee/ZCiwJ5I" className='px-5 py-2 bg-white rounded-xl m-3 text-black text-4xl flex justify-center items-center'>Line</a>
 			</div>
 		</EmptyLayout>
 	);
